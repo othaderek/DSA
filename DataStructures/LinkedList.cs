@@ -53,12 +53,12 @@ namespace DSA
             this.DecrementSize();
         }
         // Insert: Given a value and a position insert a new linked list node of given value at position
-        public void Insert(int val){
+        public void Insert(int findVal, int newVal){
 
         }
         // Delete: Find LL node with given value and delete
         public void Delete(int val){
-
+            
         }
         public List<int> LinkedListValues(){
             List<int> allNodes = new List<int>();
