@@ -17,8 +17,8 @@ namespace DSA
         // Check if there is a head
         // If there is no head add new node to head and tail increment ll
         // If there is already a head then set ll node to next of the tail and then reset tail to newNode
-        public void Push(int val){
-            LinkedListNode newNode = new LinkedListNode(val);
+        public void Push(string hashCode, int val){
+            LinkedListNode newNode = new LinkedListNode(hashCode, val);
             if (this.Size == 0)
             {
                 this.Head = newNode;
@@ -58,7 +58,7 @@ namespace DSA
         }
         // Delete: Find LL node with given value and delete
         public void Delete(int val){
-            
+
         }
         public List<int> LinkedListValues(){
             List<int> allNodes = new List<int>();
