@@ -1,0 +1,16 @@
+/home/odhp/Development/dotnet/DSA/bin/Debug/net5.0/DSA
+/home/odhp/Development/dotnet/DSA/bin/Debug/net5.0/DSA.deps.json
+/home/odhp/Development/dotnet/DSA/bin/Debug/net5.0/DSA.runtimeconfig.json
+/home/odhp/Development/dotnet/DSA/bin/Debug/net5.0/DSA.runtimeconfig.dev.json
+/home/odhp/Development/dotnet/DSA/bin/Debug/net5.0/DSA.dll
+/home/odhp/Development/dotnet/DSA/bin/Debug/net5.0/ref/DSA.dll
+/home/odhp/Development/dotnet/DSA/bin/Debug/net5.0/DSA.pdb
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/DSA.csprojAssemblyReference.cache
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/DSA.GeneratedMSBuildEditorConfig.editorconfig
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/DSA.AssemblyInfoInputs.cache
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/DSA.AssemblyInfo.cs
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/DSA.csproj.CoreCompileInputs.cache
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/DSA.dll
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/ref/DSA.dll
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/DSA.pdb
+/home/odhp/Development/dotnet/DSA/obj/Debug/net5.0/DSA.genruntimeconfig.cache
