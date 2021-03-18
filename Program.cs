@@ -6,8 +6,11 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-            LinkedListNode n1 = new LinkedListNode(1);
-            Console.WriteLine($"This is a Linked List node with a value of {n1.Value.ToString()}");
+            LinkedList ll = new LinkedList();
+            ll.Push(1);
+            ll.Push(2);
+            Console.WriteLine($"The head of the Linked List Linked has a value of {ll.Head.Value.ToString()}, its next value is {ll.Head.Next.Value.ToString()}");
+            Console.WriteLine($"The Size of the Linked List is {ll.Size.ToString()}");
         }
     }
 }
