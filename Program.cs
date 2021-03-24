@@ -12,10 +12,10 @@ namespace DSA
             b1.Insert(3);
             b1.Insert(2);
             b1.Insert(4);
-            Console.WriteLine(b1.Root.Value);
-            Console.WriteLine(b1.Root.Left.Value);
-            Console.WriteLine(b1.Root.Right.Value);
-            // Console.WriteLine();
+            b1.Insert(1);
+            b1.Insert(5);
+            List<int> nodes = b1.DFS();
+            Console.WriteLine(b1.PrintTree(nodes));
         }
     }
 }

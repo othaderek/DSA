@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace DSA
 {
@@ -39,13 +40,25 @@ namespace DSA
             }
         }
 
-        public int[] DFS(BSTNode root){
-            int[] nodeArr = new int[this.Size];
+        public List<int> DFS(){
+            List<int> visited = new List<int>();
+            BSTNode current = this.Root;
+
+            void Traverse(BSTNode node){
+                if (node.Left != null) Traverse(node.Left);
+                visited.Add(node.Value);
+                if (node.Right != null) Traverse(node.Right);
+            }
+            Traverse(current);
+            return visited;
         }
 
-        public string PrintTree(int[] result){
-
-            return "";
+        public string PrintTree(List<int> result){
+            string nodes = result[0].ToString();
+            for ( int i = 1; i < result.Count; i++){
+                nodes += $", {result[i].ToString()}";
+            }
+            return nodes;
         }
         // insert
         // bfs
