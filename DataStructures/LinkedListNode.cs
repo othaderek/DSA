@@ -4,7 +4,6 @@ namespace DSA
 {
     public class LinkedListNode
     {
-        private LinkedListNode next;
 
         public LinkedListNode(string hashCode, int val){
             Key = hashCode;
