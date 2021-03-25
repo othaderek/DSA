@@ -18,6 +18,20 @@ An array of integers in C# looks like this:
 Each item in an array has an index. The first index of the array is always 0 and the last index of the array is always the arrays length - 1.
 
 
+#### Common Operations
+
+Access: *O(1)*
+
+Accessing is as simple as passing in the index of an array to square brackets. Consider our array from above.
+` arr[0] == 1 `
+
+Search: *O(n)*
+
+Insertion: *O(n)*
+
+Deletion: *O(n)*
+
+
 ***
 
 ### Strings
