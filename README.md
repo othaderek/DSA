@@ -10,6 +10,14 @@ These are my Data Structures and Algorithms implementations in C# to better prep
 
 ### Arrays
 
+An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together.
+
+An array of integers in C# looks like this:
+` int[] arr = {1, 2, 3, 4, 5}; `
+
+Each item in an array has an index. The first index of the array is always 0 and the last index of the array is always the arrays length - 1.
+
+
 ***
 
 ### Strings
@@ -17,6 +25,18 @@ These are my Data Structures and Algorithms implementations in C# to better prep
 ***
 
 ### Hash Tables
+
+***
+
+### Linked List
+
+***
+
+### Stack
+
+***
+
+### Queue
 
 ***
 
