@@ -52,7 +52,7 @@ class MainClass {
 		int length = arr.Length;
 		int i;
 		
-		for (i < 0; i < length; i++)
+		for (i = 0; i < length; i++)
 		{
 			if (arr[i] == num)
 			{
