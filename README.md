@@ -22,8 +22,14 @@ Each item in an array has an index. The first index of the array is always 0 and
 
 Access: *O(1)*
 
-Accessing is as simple as passing in the index of an array to square brackets. Consider our array from above.
+Accessing is as simple as passing in the index of an array to square brackets. 
+Consider our array from above. If you wanted to access the first item, or
+the item at the zeroeth index it would look something like this.
+
 ` arr[0] == 1 `
+
+As long as you know the index for the array item you want 
+you will be able to access it in constant time.
 
 Search: *O(n)*
 
