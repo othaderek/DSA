@@ -74,7 +74,7 @@ Insertion: *O(n)*
 
 Deletion: *O(n)*
 
-[Array operation implementations](/DSA/Problems/arrays/ArrayOperations.cs)
+[Array operation implementations](/Problems/arrays/ArrayOperations.cs)
 
 
 ***
