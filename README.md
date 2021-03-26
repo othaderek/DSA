@@ -44,10 +44,10 @@ class MainClass {
 	{
 		MainClass mc = new MainClass();
 		int[] arr = {1,2,3,4,5};
-		mc.Search(arr);
+		mc.LinearSearch(arr);
 	}
 	
-	public int Search(int[] arr, int num)
+	public int LinearSearch(int[] arr, int num)
 	{
 		int length = arr.Length;
 		int i;
@@ -73,6 +73,8 @@ Of course if we were dealing with a sorted array we would be able to find our in
 Insertion: *O(n)*
 
 Deletion: *O(n)*
+
+[Array operation implementations]("/home/odhp/Development/dotnet/DSA/Problems/arrays/ArrayOperations.cs")
 
 
 ***

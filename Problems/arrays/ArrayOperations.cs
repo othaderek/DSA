@@ -1,6 +1,6 @@
 using System;
 
-class MainClass {
+class ArrayOperations {
   public int[] Reverse(int[] arr)
     {
       int i;
@@ -23,4 +23,30 @@ class MainClass {
       }
       return str;
     }
+
+    public int[] InsertAt(int[] arr, int num){
+
+      return arr;
+    }
+
+    public int[] InsertBefore(int[] arr, int num){
+
+      return arr;
+    }
+
+    public int[] InsertAfter(int[] arr, int num){
+
+      return arr;
+    }
+
+    public int[] LinearSearch(int[] arr, int num){
+
+      return arr;
+    }
+
+    public int[] RotateAtK(int[] arr, int k){
+
+      return arr;
+    }
+    
 }
